@@ -115,6 +115,6 @@ To keep every nice and tight. I made a adapter board with JSTs, to put on top of
 ![](serco_jst.png)
 
 ## Final look
-![](https://imgur.com/bUGyV8Z)
+![](https://imgur.com/a/OWZ25nT)
 
 
