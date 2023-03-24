@@ -32,8 +32,8 @@ What you will need is a servo with **2 chips** in it! <br/>
 Next is to look up the part number on google. If google says that it is a **H-Bridge**  or a **H-Bridge motor control** then you are on the right track!  <br/>
 In my case the **H-Bridge** is **TC8301**s and sometimes there could also  **TC118**s.
 
-![TC8310 servo](https://user-images.githubusercontent.com/112129893/227541779-d23b15ea-6351-41f2-9ec0-b06f423ba46c.jpg)
 
+![TC8310 servo](https://user-images.githubusercontent.com/112129893/227542171-f93312a7-94da-40e7-ae0d-8eb50a54a8ef.jpg)
 
 
 Now if we take a look the data sheet of the **TC8301**. In the data sheet there is an example circuit diagram.
