@@ -115,7 +115,8 @@ And to test whatever the servo has been successfully modded you can send ``120;0
 
 To keep every thing nice and tight. I made a adapter board with JSTs, to put on top of the esp32.
 ![esp_adapterboard](https://user-images.githubusercontent.com/112129893/227541486-339af4a9-7b3f-4fc3-a10b-7b75a0ad3906.png)
-![esp_adapterboard](https://user-images.githubusercontent.com/112129893/227541460-6309a9ea-6b17-4197-ad2a-3438e8987e3d.png)
+![serco_jst](https://user-images.githubusercontent.com/112129893/227656085-f9b1b3ba-8475-497d-b635-c5ef67149b4a.png)
+
 
 ## Final look
 ![bUGyV8Z - Imgur](https://user-images.githubusercontent.com/112129893/227541274-09e7e078-1484-414f-8661-a574da73bc1c.jpg)
