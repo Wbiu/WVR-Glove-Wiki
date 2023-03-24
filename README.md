@@ -36,14 +36,14 @@ In my case the **H-Bridge** is **TC8301**s and sometimes there could also  **TC1
 ![TC8310 servo](https://user-images.githubusercontent.com/112129893/227542171-f93312a7-94da-40e7-ae0d-8eb50a54a8ef.jpg)
 
 
-Now if we take a look the data sheet of the **TC8301**. In the data sheet there is an example circuit diagram.
-And we can that pin **2** and **3** are labeled as input **A** and **B**.
+Now if we take a look at the data sheet of the **TC8301**. In the data sheet there is an example circuit diagram.
+And we can see that pin **2** and **3** are labeled as input **A** and **B**.
 With these 2 pins we can control the **speed** and **direction** with a **PWM** signal.  
 
 ![tc8301 circuit](https://user-images.githubusercontent.com/112129893/227541827-6f711e6a-ff27-4fcc-9017-f275cbe699e4.png)
 
 
-Here is how we can control the motors **speed** and **direction**. Later on we are control these input with a PWM signal.<br/> L = low <br/>
+Here is how we can control the motors **speed** and **direction**. Later on we control these input with a PWM signal.<br/> L = low <br/>
 H = high<br/>
 ![TC8301 mode ](https://user-images.githubusercontent.com/112129893/227541836-4d4a9689-8cdd-423d-898c-729e9318463a.png)
 
@@ -94,7 +94,7 @@ If you open up a serial monitor it should print out **" initialization error "**
 
 
 ## Wiring 
-Here is how every things is wired internally.<br/>
+Here is how every thing is wired internally.<br/>
 I'm recommending that you prewire every thing on the breadboard first.<br/>
 The IMU I'm using is the BNO055 from Adafruit.
 ![internal wiringpng](https://user-images.githubusercontent.com/112129893/227541600-a25ec624-8c0d-41ea-ad15-7f86e61eaa52.png)
@@ -102,18 +102,18 @@ The IMU I'm using is the BNO055 from Adafruit.
 
 
 ## Testing
-Now let's do some testing before you built the actual glove.
+Now let's do some testing before you build the actual glove.
 If every thing is connected correctly it should say **" initialize successful "** after boot up and you will get a lot of values that look somewhat like this.<br/>
 ![data_out_esp](https://user-images.githubusercontent.com/112129893/227541554-2f7a9a80-dd1f-4430-a277-ade7aacb6ba5.png)
 
 
-And to test whatever the servo has been successfully modded you can send ``120;0;0;0;0`` to the eso32. This will turn on the the **thumb servo**. Or if you send ``-120;0;0;0;0`` then servo will in turn the other way around. The larger the value, the faster it becomes. Max value is ``255``. The value for turning off the servo is ``0;0;0;0;0``. 
+And to test whatever the servo has been successfully modded you can send ``120;0;0;0;0`` to the eso32. This will turn on the the **thumb servo**. Or if you send ``-120;0;0;0;0`` then servo will turn the other way around. The larger the value, the faster it becomes. Max value is ``255``. The value for turning off the servo is ``0;0;0;0;0``. 
 > **note** : **thumb** ; **index** ; **middle** ; **ring** ; >**pinky**
 
 
 ## Additional connection
 
-To keep every nice and tight. I made a adapter board with JSTs, to put on top of the esp32.
+To keep every thing nice and tight. I made a adapter board with JSTs, to put on top of the esp32.
 ![esp_adapterboard](https://user-images.githubusercontent.com/112129893/227541486-339af4a9-7b3f-4fc3-a10b-7b75a0ad3906.png)
 ![esp_adapterboard](https://user-images.githubusercontent.com/112129893/227541460-6309a9ea-6b17-4197-ad2a-3438e8987e3d.png)
 
