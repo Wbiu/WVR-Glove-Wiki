@@ -4,7 +4,7 @@
 
 > **note** : I´m assuming that you have some basic stuff before hand 
 > such as soldering equipment, 3D printer and some tools ... <br/>
-> Also some C++ knowledge in would help you a bit.
+> Also some knowledge in C++ would help you a bit.
 
 > **info** : for newbies this could be a bit tough. I was thinking about doing a youtube tutorial. For that please vote [here]() if there is an interest for a video. 
 
