@@ -32,17 +32,21 @@ What you will need is a servo with **2 chips** in it! <br/>
 Next is to look up the part number on google. If google says that it is a **H-Bridge**  or a **H-Bridge motor control** then you are on the right track!  <br/>
 In my case the **H-Bridge** is **TC8301**s and sometimes there could also  **TC118**s.
 
-![](file:///F:/TA%20Dokumentations/Git%20mds/TC8310%20servo.jpg)
+![TC8310 servo](https://user-images.githubusercontent.com/112129893/227541779-d23b15ea-6351-41f2-9ec0-b06f423ba46c.jpg)
+
+
 
 Now if we take a look the data sheet of the **TC8301**. In the data sheet there is an example circuit diagram.
 And we can that pin **2** and **3** are labeled as input **A** and **B**.
 With these 2 pins we can control the **speed** and **direction** with a **PWM** signal.  
 
-![](file:///F:/TA%20Dokumentations/Git%20mds/tc8301%20circuit.PNG)
+![tc8301 circuit](https://user-images.githubusercontent.com/112129893/227541827-6f711e6a-ff27-4fcc-9017-f275cbe699e4.png)
+
 
 Here is how we can control the motors **speed** and **direction**. Later on we are control these input with a PWM signal.<br/> L = low <br/>
 H = high<br/>
-![](file:///F:/TA%20Dokumentations/Git%20mds/TC8301%20mode%20.png)
+![TC8301 mode ](https://user-images.githubusercontent.com/112129893/227541836-4d4a9689-8cdd-423d-898c-729e9318463a.png)
+
 
 In theory you can solder on the wires directly on the **TC8301** pins. A wire to INA and also a wire to INB, then also a wire to the middle pin of the potentiometer.
 The yellow wire is no longer needed and can be removed.
@@ -62,7 +66,7 @@ And of course there should be 5 wires coming out of the servo.
 
 > **caution!!** : there could be is a small extrusion/tip to prevent the servo from spinning 360°. This needs to be removed!
 
-![](modded%20Servo.jpg)
+![modded Servo](https://user-images.githubusercontent.com/112129893/227541723-b24b6c59-6a42-4462-88d8-301991167e49.jpg)
 > **note** : picture is mirrored/flipped <br/>
 >Servo Pos = Potentiometer middle pin
 
@@ -93,13 +97,14 @@ If you open up a serial monitor it should print out **" initialization error "**
 Here is how every things is wired internally.<br/>
 I'm recommending that you prewire every thing on the breadboard first.<br/>
 The IMU I'm using is the BNO055 from Adafruit.
-![](internal%20wiringpng.png)
+![internal wiringpng](https://user-images.githubusercontent.com/112129893/227541600-a25ec624-8c0d-41ea-ad15-7f86e61eaa52.png)
+
 
 
 ## Testing
 Now let's do some testing before you built the actual glove.
 If every thing is connected correctly it should say **" initialize successful "** after boot up and you will get a lot of values that look somewhat like this.<br/>
-![](data_out_esp.png)
+![data_out_esp](https://user-images.githubusercontent.com/112129893/227541554-2f7a9a80-dd1f-4430-a277-ade7aacb6ba5.png)
 
 
 And to test whatever the servo has been successfully modded you can send ``120;0;0;0;0`` to the eso32. This will turn on the the **thumb servo**. Or if you send ``-120;0;0;0;0`` then servo will in turn the other way around. The larger the value, the faster it becomes. Max value is ``255``. The value for turning off the servo is ``0;0;0;0;0``. 
@@ -109,12 +114,10 @@ And to test whatever the servo has been successfully modded you can send ``120;0
 ## Additional connection
 
 To keep every nice and tight. I made a adapter board with JSTs, to put on top of the esp32.
-
-![](esp_adapterboard.png)
-
-![](serco_jst.png)
+![esp_adapterboard](https://user-images.githubusercontent.com/112129893/227541486-339af4a9-7b3f-4fc3-a10b-7b75a0ad3906.png)
+![esp_adapterboard](https://user-images.githubusercontent.com/112129893/227541460-6309a9ea-6b17-4197-ad2a-3438e8987e3d.png)
 
 ## Final look
-![](https://imgur.com/a/OWZ25nT)
+![bUGyV8Z - Imgur](https://user-images.githubusercontent.com/112129893/227541274-09e7e078-1484-414f-8661-a574da73bc1c.jpg)
 
 
