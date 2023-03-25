@@ -90,9 +90,6 @@ If you open up a serial monitor it should print out **" initialization error "**
 
 
 
-
-
-
 ## Wiring 
 Here is how every thing is wired internally.<br/>
 I'm recommending that you prewire every thing on the breadboard first.<br/>
@@ -122,3 +119,5 @@ To keep every thing nice and tight. I made a adapter board with JSTs, to put on 
 
 ![oneShape_model_v1](https://user-images.githubusercontent.com/112129893/227723656-6a1c3b95-7611-4abe-b45f-dd2d0282e889.PNG)
 
+## Support
+ If you want you can join my [discord]() server if there is any issues or questions.
