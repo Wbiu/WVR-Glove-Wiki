@@ -1,4 +1,4 @@
-# WVR Glove Wiki v0.1
+# WVR Glove Wiki
 ## Let´s start building the glove
 ### Things that you will need before we start building.
 
