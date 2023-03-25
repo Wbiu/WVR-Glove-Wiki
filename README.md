@@ -20,7 +20,7 @@
 
 
 ## Printing the part
-Download the part from [this]() repo.
+Download the part from [this wiki]() repo.
 
 
 ## Modding SG90 servos
