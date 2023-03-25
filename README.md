@@ -20,7 +20,7 @@
 
 
 ## Printing the part
-Download the part from [this wiki]() repo.
+Download the part from [this wiki](https://github.com/Wbiu/WVR-Glove-Wiki) repo.
 
 
 ## Modding SG90 servos
