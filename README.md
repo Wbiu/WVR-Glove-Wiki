@@ -74,7 +74,7 @@ And of course there should be 5 wires coming out of the servo.
 
 ## Preparing the ESP32
 Get visual studio code and install plattformio.
-Download the [firmware]() and add it to plattformio.<br/>
+Download the [firmware](https://github.com/Wbiu/WVR-GLOVE-Firmware) and add it to plattformio.<br/>
 PlattformIO : Home>Projects>Add Existing
 
 > **note** : The default serial bound rate in the firmware is set to 250000.<br/>
