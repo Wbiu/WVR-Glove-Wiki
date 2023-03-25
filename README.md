@@ -119,6 +119,6 @@ To keep every thing nice and tight. I made a adapter board with JSTs, to put on 
 
 
 ## Final look
-![bUGyV8Z - Imgur](https://user-images.githubusercontent.com/112129893/227541274-09e7e078-1484-414f-8661-a574da73bc1c.jpg)
 
+![oneShape_model_v1](https://user-images.githubusercontent.com/112129893/227723656-6a1c3b95-7611-4abe-b45f-dd2d0282e889.PNG)
 
