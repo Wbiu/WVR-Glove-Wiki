@@ -19,7 +19,7 @@
 * I also use **TPU** for printing the fingertips.
 
 
-## Printing the part
+## Printing the parts
 Download the part from [this wiki](https://github.com/Wbiu/WVR-Glove-Wiki) repo.
 
 
