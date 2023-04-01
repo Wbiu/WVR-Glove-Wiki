@@ -6,7 +6,7 @@
 > such as soldering equipment, 3D printer and some tools ... <br/>
 > Also some knowledge in C++ would help you a bit.
 
-> **info** : for newbies this could be a bit tough. I was thinking about doing a youtube tutorial. For that please vote [here]() if there is an interest for a video. 
+> **info** : for newbies this could be a bit tough. I was thinking about doing a youtube tutorial. For that please vote in [discord](https://discord.gg/FY35dYT8) in the vote chanel, if there is an interest for a video. 
 
 * esp32 (wroom/wrover) Dev-board (I´m recommending that you get 2 of them )
 * 1x 9 axis IMU (in this project a BNO055 was used)
@@ -127,5 +127,5 @@ After all the hard work let's test the glove in [Unreal Engine](https://github.c
 ![UE5 Greif Test _Trim](https://user-images.githubusercontent.com/112129893/228447222-9a7d7522-b9ad-4f0b-85b0-2efa980ad3ed.gif)
 
 ## Support
- If you want you can join my [discord]() server if there is any issues or questions.
+ If you want you can join my [discord](https://discord.gg/FY35dYT8) server if there is any issues or questions.
 
