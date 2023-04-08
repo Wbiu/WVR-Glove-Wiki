@@ -103,6 +103,9 @@ Now let's do some testing before you build the actual glove.
 If every thing is connected correctly it should say **" initialize successful "** after boot up and you will get a lot of values that look somewhat like this.<br/>
 ![data_out_esp](https://user-images.githubusercontent.com/112129893/227541554-2f7a9a80-dd1f-4430-a277-ade7aacb6ba5.png)
 
+## Configuration
+To configure the glove I've wrote an aplicatoion for this.
+See [here](https://github.com/Wbiu/WVR-Glove-Configurator).
 
 And to test whatever the servo has been successfully modded you can send ``120;0;0;0;0`` to the eso32. This will turn on the the **thumb servo**. Or if you send ``-120;0;0;0;0`` then servo will turn the other way around. The larger the value, the faster it becomes. Max value is ``255``. The value for turning off the servo is ``0;0;0;0;0``. 
 > **note** : **thumb** ; **index** ; **middle** ; **ring** ; >**pinky**
