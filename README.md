@@ -77,12 +77,12 @@ Get visual studio code and install plattformio.
 Download the [firmware](https://github.com/Wbiu/WVR-GLOVE-Firmware) and add it to plattformio.<br/>
 PlattformIO : Home>Projects>Add Existing
 
-> **note** : The default serial boud rate in the firmware is set to 250000.<br/>
+> **note** : The default serial baud rate in the firmware is set to 250000.<br/>
 > This can be changed in src/Properties.h under ``#define BAUDRATE`` 
 
 Now just compile and upload the firmware to the esp32 to the right COM port with a baud rate of 115200. <br/>
 
-> **note** : if you haven't changed the baud rate in the firmware please remember that you need set the boud rate in the serial monitor to 250000.
+> **note** : if you haven't changed the baud rate in the firmware please remember that you need set the baud rate in the serial monitor to 250000.
 
 
 
