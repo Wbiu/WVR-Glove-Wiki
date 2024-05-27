@@ -78,11 +78,11 @@ Download the [firmware](https://github.com/Wbiu/WVR-GLOVE-Firmware) and add it t
 PlattformIO : Home>Projects>Add Existing
 
 > **note** : The default serial bound rate in the firmware is set to 250000.<br/>
-> This can be changed in src/Properties.h under ``#define BAUNDRATE`` 
+> This can be changed in src/Properties.h under ``#define BAUDRATE`` 
 
-Now just compile and upload the firmware to the esp32 to the right COM port with a baund rate of 115200. <br/>
+Now just compile and upload the firmware to the esp32 to the right COM port with a baud rate of 115200. <br/>
 
-> **note** : if you haven't changed the baund rate in the firmware please remember that you need set the bound rate in the serial monitor to 250000.
+> **note** : if you haven't changed the baud rate in the firmware please remember that you need set the bound rate in the serial monitor to 250000.
 
 
 
