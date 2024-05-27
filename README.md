@@ -106,7 +106,7 @@ If every thing is connected correctly it should say **" initialize successful "*
 
 
 And to test whatever the servo has been successfully modded you can send ``120;0;0;0;0`` to the eso32. This will turn on the the **thumb servo**. Or if you send ``-120;0;0;0;0`` then servo will turn the other way around. The larger the value, the faster it becomes. Max value is ``255``. The value for turning off the servo is ``0;0;0;0;0``. 
-> **note** : **thumb** ; **index** ; **middle** ; **ring** ; >**pinky**
+> **note** : **thumb** ; **index** ; **middle** ; **ring** ; **pinky**
 
 You can also hold the position reading process with ```#hold``` then the output should pause.
 To continue just send ```#continue``` then the position reading process should resume.
