@@ -133,5 +133,5 @@ After all the hard work let's test the glove in [Unreal Engine](https://github.c
 ![UE5 Greif Test _Trim](https://user-images.githubusercontent.com/112129893/228447222-9a7d7522-b9ad-4f0b-85b0-2efa980ad3ed.gif)
 
 ## Support
- If you want you can join my [discord](https://discord.gg/FY35dYT8) server if there is any issues or questions.
+ If you want you can join my [discord](https://discord.gg/TnM6WXtwfb) server if there is any issues or questions.
 
